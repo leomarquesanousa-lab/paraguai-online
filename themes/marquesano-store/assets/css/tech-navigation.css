@@ -1,0 +1,25 @@
+/* Navigation only: keep the TECH brand/search/account/cart shell unchanged. */
+body.preset-tech .tech-header{position:relative;z-index:30;overflow:visible}
+body.preset-tech .po-tech-navigation{position:relative;overflow:visible;min-width:0}
+body.preset-tech .po-tech-navigation .po-main-list{display:flex;align-items:center;gap:8px 22px;list-style:none;margin:0;padding:0;flex-wrap:wrap}
+body.preset-tech .po-tech-navigation .po-main-list>li{position:static;list-style:none}
+body.preset-tech .po-tech-navigation .po-main-list>li>a,body.preset-tech .po-tech-navigation .po-main-list>li>details>summary{font-size:12px;color:#f2f6fb;font-weight:500;line-height:1.5;min-height:40px;padding:11px 0;white-space:nowrap;text-decoration:none;cursor:pointer}
+body.preset-tech .po-tech-navigation summary{display:flex;align-items:center;justify-content:space-between;gap:10px;list-style:none;border-radius:4px}
+body.preset-tech .po-tech-navigation summary::-webkit-details-marker{display:none}
+body.preset-tech .po-nav-chevron{display:inline-block;width:6px;height:6px;border-right:1.5px solid currentColor;border-bottom:1.5px solid currentColor;transform:rotate(45deg);margin:0 3px 3px;flex-shrink:0;transition:transform .16s}
+body.preset-tech .po-tech-navigation details[open]>summary>.po-nav-chevron{transform:rotate(225deg);margin-bottom:0}
+body.preset-tech .po-menu-panel{position:absolute;top:100%;left:0;z-index:50;width:min(720px,calc(100vw - 48px));max-height:min(65vh,480px);overflow:auto;overscroll-behavior:contain;background:#fff;color:#162435;border:1px solid #dde5ef;border-radius:12px;box-shadow:0 14px 35px #030e1924;padding:16px;scrollbar-width:thin;animation:po-menu-enter .14s ease}
+body.preset-tech .po-tech-navigation .po-menu-panel ul{display:block;list-style:none;padding:0;margin:0}
+body.preset-tech .po-tech-navigation .po-menu-panel>.po-category-list{columns:2;column-gap:24px}
+body.preset-tech .po-menu-panel li{break-inside:avoid;list-style:none}
+body.preset-tech .po-tech-navigation .po-menu-panel a,body.preset-tech .po-tech-navigation .po-menu-panel summary{display:flex;min-height:40px;padding:10px 12px;border-radius:6px;color:#243447;font-size:12px;line-height:1.45;white-space:normal;overflow-wrap:anywhere;text-decoration:none}
+body.preset-tech .po-tech-navigation .po-menu-panel a:hover,body.preset-tech .po-tech-navigation .po-menu-panel summary:hover{background:#f0f4f9;color:#154da7}
+body.preset-tech .po-tech-navigation .po-menu-panel>.po-view-category{font-weight:650;border-bottom:1px solid #e5eaf1;border-radius:0;margin-bottom:10px;padding-bottom:14px}
+body.preset-tech .po-branch-content{padding-left:12px;margin-left:12px;border-left:1px solid #dfe6ef}
+body.preset-tech .po-branch-content>.po-view-category{font-size:11px!important;color:#637184!important}
+body.preset-tech .po-tech-navigation :is(a,summary):focus-visible,body.preset-tech .po-menu-toggle:focus-visible{outline:2px solid #78a8ff;outline-offset:3px}
+body.preset-tech .po-menu-toggle{display:none;border:1px solid #ffffff40;border-radius:6px;background:transparent;color:#fff;align-items:center;gap:8px;min-height:40px;padding:8px 10px;font-size:12px;cursor:pointer}
+body.preset-tech .po-menu-toggle svg{width:18px;height:18px}
+@keyframes po-menu-enter{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:translateY(0)}}
+@media(max-width:767px){body.preset-tech .po-nav-enhanced .po-menu-toggle:not([hidden]){display:inline-flex}body.preset-tech .po-nav-enhanced .po-tech-navigation{display:none}body.preset-tech .po-nav-enhanced.po-nav-open .po-tech-navigation{display:block}body.preset-tech .po-tech-navigation{flex-basis:100%;order:4;overflow:visible;max-width:100%}body.preset-tech .po-tech-navigation .po-main-list{display:block;max-height:70vh;overflow-y:auto;overflow-x:hidden;padding:8px 0;border-top:1px solid #ffffff25}body.preset-tech .po-tech-navigation .po-main-list>li>a,body.preset-tech .po-tech-navigation .po-main-list>li>details>summary{display:flex;padding:12px 8px;min-height:44px;white-space:normal}body.preset-tech .po-menu-panel{position:static;width:100%;max-height:50vh;border-radius:8px;padding:10px;box-shadow:none;margin-bottom:8px;box-sizing:border-box}body.preset-tech .po-tech-navigation .po-menu-panel>.po-category-list{columns:1}body.preset-tech .po-branch-content{padding-left:6px;margin-left:6px}}
+@media(prefers-reduced-motion:reduce){body.preset-tech .po-menu-panel{animation:none}body.preset-tech .po-nav-chevron{transition:none}}

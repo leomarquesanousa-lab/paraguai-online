@@ -1,0 +1,3 @@
+/* Absolutely positioned, decorative layers. Never override the hero's geometry. */
+body.preset-tech .signature-hero>.po-hero-crossfade-layer{position:absolute;inset:0;margin:0;padding:0;pointer-events:none;opacity:0;z-index:0;background-color:inherit;background-image:inherit;background-size:inherit;background-position:inherit;background-repeat:inherit;background-origin:inherit;background-clip:inherit;border-radius:inherit;transition:opacity 1200ms ease-in-out}
+@media(prefers-reduced-motion:reduce){body.preset-tech .signature-hero>.po-hero-crossfade-layer{display:none;transition:none}}

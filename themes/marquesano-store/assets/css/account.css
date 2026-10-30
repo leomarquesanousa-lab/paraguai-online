@@ -1,0 +1,56 @@
+/* Native WooCommerce account, scoped away from /painel and the rest of the storefront. */
+body.po-account{--po-account-ink:#111e2d;--po-account-muted:#617080;--po-account-line:#dce3eb;background:#f7f8fa;color:var(--po-account-ink)}
+.po-account .page-main{max-width:1280px;padding:42px 32px 56px;margin:auto;min-width:0}
+.po-account-heading{margin-bottom:32px}
+.po-account-eyebrow{font-size:10px;font-weight:650;letter-spacing:.17em;color:var(--po-account-muted);margin:0 0 14px}
+.po-account-heading h1{font-size:clamp(30px,3.5vw,46px);font-weight:550;letter-spacing:-.05em;line-height:1.15;margin:0 0 12px}
+.po-account-heading>p:last-child{font-size:14px;color:var(--po-account-muted);margin:0}
+.po-account .woocommerce{font-size:14px;line-height:1.75;min-width:0}
+.po-account .woocommerce::before,.po-account .woocommerce::after{content:none}
+.po-account .woocommerce-MyAccount-navigation{float:left;width:23%;margin:0;padding:12px;background:#fff;border:1px solid var(--po-account-line);border-radius:10px;box-sizing:border-box}
+.po-account .woocommerce-MyAccount-navigation ul{display:grid;gap:5px;margin:0;padding:0;list-style:none}
+.po-account .woocommerce-MyAccount-navigation li{margin:0;padding:0}
+.po-account .woocommerce-MyAccount-navigation a{display:block;min-height:46px;padding:11px 14px;border:0;border-radius:6px;font-size:13px;color:#526273;text-decoration:none;overflow-wrap:anywhere}
+.po-account .woocommerce-MyAccount-navigation .is-active a{background:#111e2d;color:#fff;font-weight:600}
+.po-account .woocommerce-MyAccount-navigation a:hover{background:#edf2f8;color:var(--po-account-ink)}
+.po-account .woocommerce-MyAccount-content{float:right;width:73%;min-width:0;box-sizing:border-box;background:#fff;border:1px solid var(--po-account-line);border-radius:10px;padding:28px}
+.po-account .woocommerce-MyAccount-content h2,.po-account .woocommerce-MyAccount-content h3,.po-account #customer_login h2{font-size:23px;font-weight:550;letter-spacing:-.035em;line-height:1.3;margin:0 0 22px}
+.po-account .woocommerce-MyAccount-content p{margin-bottom:18px;overflow-wrap:anywhere}
+.po-account .woocommerce form.login,.po-account .woocommerce form.register,.po-account .woocommerce form.lost_reset_password{background:#fff;border:1px solid var(--po-account-line);border-radius:10px;padding:28px;margin:0 0 24px;max-width:640px}
+.po-account #customer_login{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:32px}
+.po-account #customer_login::before,.po-account #customer_login::after{display:none;content:none}
+.po-account #customer_login .col-1,.po-account #customer_login .col-2{float:none;width:100%;min-width:0}
+.po-account #customer_login form{max-width:none}
+.po-account .woocommerce form .form-row{margin:0 0 18px;padding:0}
+.po-account .woocommerce form .form-row label{display:block;font-size:13px;font-weight:550;color:var(--po-account-ink);margin-bottom:7px;line-height:1.6}
+.po-account .woocommerce form .form-row input.input-text,.po-account .woocommerce form .form-row textarea,.po-account .woocommerce form .form-row select{width:100%;max-width:100%;min-width:0;min-height:50px;padding:12px;border:1px solid #aebdcb;border-radius:6px;background:#fff;color:var(--po-account-ink);font:inherit;font-size:15px;box-sizing:border-box}
+.po-account .woocommerce form .form-row input[type=checkbox]{width:18px;height:18px;vertical-align:middle;margin:0 7px 0 0}
+.po-account .woocommerce .select2-container .select2-selection--single{min-height:50px;border:1px solid #aebdcb;border-radius:6px;background:#fff;padding:10px 6px}
+.po-account .woocommerce .select2-container .select2-selection__arrow{top:12px}
+.po-account .woocommerce .password-input{min-width:0}
+.po-account .woocommerce button.show-password-input{background:transparent;color:var(--po-account-ink);min-height:44px;min-width:40px;padding:8px;border:0;border-radius:0;box-shadow:none;transform:none;top:3px;right:3px}
+.po-account .woocommerce button.button,.po-account .woocommerce a.button{min-height:46px;max-width:100%;padding:12px 20px;border-radius:7px;background:var(--ms-primary);color:var(--ms-on-primary);font-size:13px;font-weight:600;line-height:1.4;white-space:normal;box-shadow:none;transform:none}
+.po-account .woocommerce button.button:disabled{opacity:.5;cursor:not-allowed}
+.po-account .woocommerce .woocommerce-form-login__submit{float:none;margin-top:12px}
+.po-account .woocommerce-LostPassword{font-size:13px;margin:0}
+.po-account .woocommerce fieldset{border:1px solid var(--po-account-line);border-radius:8px;padding:20px;margin:24px 0}
+.po-account .woocommerce legend{font-size:15px;font-weight:550;letter-spacing:-.02em;padding:0 8px}
+.po-account .woocommerce table.shop_table{border:1px solid var(--po-account-line);border-radius:8px;width:100%;border-collapse:separate;border-spacing:0;background:#fff;font-size:13px;overflow-wrap:anywhere}
+.po-account .woocommerce table.shop_table th{font-size:11px;font-weight:650;letter-spacing:.035em;color:var(--po-account-muted);padding:14px 12px;background:#f7f8fa}
+.po-account .woocommerce table.shop_table td{padding:16px 12px;border-color:var(--po-account-line);line-height:1.6}
+.po-account .woocommerce table.shop_table .button{font-size:12px;padding:10px 12px}
+.po-account .woocommerce mark{background:transparent;color:var(--po-account-ink);font-weight:650}
+.po-account .woocommerce .woocommerce-customer-details address,.po-account .woocommerce .woocommerce-Address address{font-style:normal;line-height:1.8;border:1px solid var(--po-account-line);border-radius:8px;padding:18px;box-sizing:border-box;overflow-wrap:anywhere}
+.po-account .woocommerce .woocommerce-Address .title{display:flex;gap:14px;align-items:baseline;justify-content:space-between;margin-bottom:14px}
+.po-account .woocommerce .woocommerce-Address .title h2{margin:0}
+.po-account .woocommerce .woocommerce-Address .title .edit{font-size:12px;float:none;min-height:44px;display:inline-flex;align-items:center}
+.po-account .woocommerce-error,.po-account .woocommerce-message,.po-account .woocommerce-info{font-size:14px;line-height:1.7;border-radius:7px;padding:18px 20px 18px 48px;box-shadow:none;overflow-wrap:anywhere}
+.po-account .woocommerce-error{background:#fff2ef;color:#75251f;border-top-color:#c65a50}
+.po-account .woocommerce-message,.po-account .woocommerce-info{background:#eef3fa;color:#203e68;border-top-color:#bccde2}
+.po-account .woocommerce form .form-row.woocommerce-invalid input.input-text{border-color:#a32720}
+.po-account .woocommerce-MyAccount-content .woocommerce-info .button{float:none;margin:8px 12px 8px 0}
+.po-account .page-main::after{content:"";display:block;clear:both}
+.po-account :is(a,button,input,select,textarea):focus-visible{outline:2px solid var(--ms-primary);outline-offset:3px}
+@media(max-width:900px){.po-account .page-main{padding:32px 24px 44px}.po-account .woocommerce-MyAccount-navigation{float:none;width:100%;margin-bottom:24px;padding:10px}.po-account .woocommerce-MyAccount-navigation ul{display:flex;flex-wrap:wrap;gap:5px}.po-account .woocommerce-MyAccount-navigation a{padding:10px 12px;min-height:44px}.po-account .woocommerce-MyAccount-content{float:none;width:100%;padding:24px}.po-account #customer_login{gap:24px}}
+@media(max-width:600px){.po-account .page-main{padding:26px 16px 36px}.po-account-heading{margin-bottom:26px}.po-account #customer_login{grid-template-columns:minmax(0,1fr)}.po-account .woocommerce form.login,.po-account .woocommerce form.register,.po-account .woocommerce form.lost_reset_password,.po-account .woocommerce-MyAccount-content{padding:22px 16px}.po-account .woocommerce form .form-row-first,.po-account .woocommerce form .form-row-last{float:none;width:100%}.po-account .woocommerce form .form-row input.input-text,.po-account .woocommerce form .form-row select{font-size:16px}.po-account .woocommerce .woocommerce-Addresses .col-1,.po-account .woocommerce .woocommerce-Addresses .col-2,.po-account .woocommerce .woocommerce-customer-details .col-1,.po-account .woocommerce .woocommerce-customer-details .col-2{float:none;width:100%;margin-bottom:24px}.po-account .woocommerce table.shop_table td,.po-account .woocommerce table.shop_table th{padding:12px 8px}.po-account .woocommerce fieldset{padding:16px 12px}}
+@media(prefers-reduced-motion:reduce){.po-account .woocommerce button.button,.po-account .woocommerce a.button{transition:none}}

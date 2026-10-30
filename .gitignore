@@ -1,0 +1,49 @@
+# WordPress e dados locais
+wp-config.php
+.env
+.env.*
+!.env.example
+.htaccess
+
+# Arquivos sensíveis
+*.sql
+*.sql.gz
+*.sqlite
+*.log
+*.bak
+*.zip
+*.tar
+*.tar.gz
+
+# Dependências e arquivos temporários
+node_modules/
+vendor/
+.cache/
+.tmp/
+.DS_Store
+Thumbs.db
+
+# Arquivos locais do editor
+.vscode/
+.idea/
+
+# Uploads e backups
+uploads/
+backup/
+backups/
+
+# Resultados de auditorias e testes
+**/tests/audit/results/
+**/tools/*-results.json
+**/tools/*-before.json
+
+# Arquivos temporários de diagnóstico
+*.tmp
+*.cache
+
+# Testes e ferramentas de desenvolvimento
+plugins/marquesano-admin/tests/
+themes/marquesano-store/tools/
+
+# Documentação e arquivos de referência locais
+themes/marquesano-store/references/
